@@ -18,3 +18,11 @@ $('.js-study-2').on('click',function(){
 $('.js-study-3').on('click',function(){
   showModal('Ajax、Cookie','<p class="codepen" data-theme-id="0" data-default-tab="js,result" data-user="szaizen" data-slug-hash="xepNMR" style="box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="js課題3">  <span>See the Pen <a href="https://codepen.io/szaizen/pen/xepNMR/">  js課題3</a> by szaizen (<a href="https://codepen.io/szaizen">@szaizen</a>)  on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://static.codepen.io/assets/embed/ei.js"></script>');
 });
+
+
+$('.work--card-1').on('click',function(){
+ showModal('コミュニティサイト','<div class="work--list-modal"><p>プロジェクト人数：3名<br>担当分野：フロントエンド開発<br>使用ツール：Wordpress、Backlog、Slack開発内容：一からWordpressのカスタムテーマを作成。</p><img src="image/enclass.png"></div>');
+});
+
+
+
