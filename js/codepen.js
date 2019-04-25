@@ -21,7 +21,7 @@ $('.js-study-3').on('click',function(){
 
 
 $('.work--card-1').on('click',function(){
- showModal('コミュニティサイト','<div class="work--list-modal"><p>プロジェクト人数：3名<br>担当分野：フロントエンド開発<br>使用ツール：Wordpress、Backlog、Slack開発内容：一からWordpressのカスタムテーマを作成。</p><img src="image/enclass.png"></div>');
+ showModal('コミュニティサイト','<div class="work--list-modal"><img src="image/enclass.png"><p>プロジェクト人数：3名<br>担当分野：フロントエンド開発<br>使用ツール：Wordpress、Backlog、Slack<br>開発内容：一からWordpressのカスタムテーマを作成。</p></div>');
 });
 
 
