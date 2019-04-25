@@ -1,3 +1,4 @@
+
 p, div {
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
     font-weight: 500;
@@ -57,14 +58,24 @@ p, div {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 90%;
+}
+.work--list-detail {
+  align-self: center;
+  margin: 0;
 }
 .work--list-modal img {
   max-width: 40vw;
-  max-height: 70vh;
+  max-height: 80vh;
   margin: auto;
 }
-
-
+.work--list-right {
+  align-self: center;
+}
+.work--list-title {
+    font-size: 30px;
+    font-weight: bold;
+}
 
 /*************************************
 *   スライド3枚目
