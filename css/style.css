@@ -62,15 +62,13 @@ h1, h2 {
 
 @media (max-width: 599px) {
   .grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
   }
   .grid-item {
-    background-color: white;
-    border: 1px solid yellow;
-    height: 44vw;
-    width: 27vw;
+    height: 24vw;
+    width: 42vw;
   }
 }
 .work--list-modal {
