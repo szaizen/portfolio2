@@ -15,7 +15,7 @@ function showModal(modaltitle,modalcontent){
 //モーダルを閉じる
 $(document).on("click", ".co-modal-overlay,#co-modal-close", function () {
 	$(".co-modal-content,.co-modal-overlay").fadeOut("slow",function(){
-		$(".co-modal-overlay").remove();
+		$(this).remove();
 	});
 });
 

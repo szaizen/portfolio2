@@ -23,6 +23,14 @@ $('.js-study-3').on('click',function(){
 $('.work--card-1').on('click',function(){
  showModal('','<div class="work--list-modal">	<img src="image/enclass.png">	<div class="work--list-right">		<p class="work--list-title">			コミュニティ「Enclass」<br>			ブログ、イベント		</p>		<p class="work--list-detail">			プロジェクト人数：3名<br>			担当分野：フロントエンド開発<br>			使用ツール：Wordpress、Backlog、Slack<br>開発内容：一からWordpressのカスタムテーマを作成。		</p>	</div></div>');
 });
+/*
+<div class="work--list-modal"> <img src="image/enclass.png">
+  <div class="work--list-right">
+    <p class="work--list-title"> コミュニティ「Enclass」<br> ブログ、イベント </p>
+    <p class="work--list-detail"> プロジェクト人数：3名<br> 担当分野：フロントエンド開発<br> 使用ツール：Wordpress、Backlog、Slack<br>開発内容：一からWordpressのカスタムテーマを作成。 </p>
+  </div>
+</div>
+*/
 
 $('.work--card-2').on('click',function(){
  showModal('','<div class="work--list-modal">	<img src="image/pasonatechsystems.png">	<div class="work--list-right">		<p class="work--list-title">			「パソナテックシステムズ」<br>			コーポレートサイトリニューアル		</p>		<p class="work--list-detail">			URL：<a href="	https://systems.pasonatech.co.jp/" target="_blank">https://systems.pasonatech.co.jp/</a><br>			担当分野：メインデザイン、フロント開発<br>			使用ツール：Wordpress,asana,slack,AdobeXD<br>			開発内容：プロトタイプを作成し、デザインの考案。サイト内に使用する写真の選別。HTML,CSSやプラグインを使用してフロントのスタイル調整。<br>			開発期間：約3か月間<br>		</p>	</div></div>');
@@ -50,11 +58,29 @@ $('.work--card-2').on('click',function(){
 $('.work--card-3').on('click',function(){
  showModal('','<div class="work--list-modal">	<img src="image/music.png">	<div class="work--list-right">		<p class="work--list-title">			「M:usic」<br>			音楽販売風サイト（勉強用）		</p>		<p class="work--list-detail">			担当分野：全て<br>			使用ツール：Salesforce<br>			開発内容：Apex、Visualforceページを作成し、ログイン機能・ユーザ登録機能・カート機能を実装。<br>			開発期間：約1か月間<br>			Github：<a href="https://github.com/szaizen/music" target="_blank">https://github.com/szaizen/music</a><br>			Qiita：<a href="	https://qiita.com/szaizen/items/83f58c344c4478bb1520" target="_blank">https://qiita.com/szaizen/items/83f58c344c4478bb1520</a>		</p>	</div></div>');
 });
+/* 
+<div class="work--list-modal">
+	<img src="image/music.png">
+  <div class="work--list-right">
+    <p class="work--list-title">
+    	「M:usic」<br> 音楽販売風サイト（勉強用）
+    </p>
+    <p class="work--list-detail">
+			プロジェクト人数：1名<br>
+    	使用ツール：Salesforce<br>
+    	開発内容：Apex、Visualforceページをフルスクラッチ開発し、ログイン機能・ユーザ登録機能・カート機能を実装。<br> 
+    	開発期間：約1か月間<br>
+    	Github：<a href="https://github.com/szaizen/music" target="_blank">https://github.com/szaizen/music</a><br> 
+    	Qiita：<a href="	https://qiita.com/szaizen/items/83f58c344c4478bb1520" target="_blank">https://qiita.com/szaizen/items/83f58c344c4478bb1520</a> 
+    </p>
+  </div>
+</div>
+*/
 
-$('.work--card-2').on('click',function(){
+$('.work--card-4').on('click',function(){
  showModal('','');
 });
 
-$('.work--card-2').on('click',function(){
+$('.work--card-5').on('click',function(){
  showModal('','');
 });

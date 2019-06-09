@@ -1,7 +1,10 @@
 
 p, div {
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
-    font-weight: 500;
+  font-family: YuGothic,'Yu Gothic',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  font-weight: 500;
+}
+h1, h2 {
+  font-family: 'Caveat', sans-serif;
 }
 .menu {
   position: fixed;
@@ -14,14 +17,14 @@ p, div {
 **************************************/
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 16px;
-  grid-row-gap: 6px;
+  grid-row-gap: 22px;
 }
 .grid-item {
   background-color: white;
-  height: 26vw;
-  width: 15vw;
+  height: 12vw;
+  width: 19vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -41,6 +44,22 @@ p, div {
 .grid-item:nth-child(2) {
   background-image: url('../image/pasonatechsystems.png');
 }
+.grid-item:nth-child(3) {
+  background-image: url('../image/music_pc.png');
+}
+.grid-item:nth-child(4) {
+  background-image: url('../image/signpost_pc.png');
+}
+.grid-item:nth-child(5) {
+  background-image: url('../image/portfolio4.png');
+}
+.grid-item:nth-child(6) {
+  background-image: url('../image/camp.png');
+}
+.grid-item:nth-child(7) {
+  background-image: url('../image/Portfolio.png');
+}
+
 @media (max-width: 599px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,6 +94,11 @@ p, div {
 .work--list-title {
     font-size: 30px;
     font-weight: bold;
+}
+
+
+.p-section__text img {
+    width: 90%;
 }
 
 /*************************************
