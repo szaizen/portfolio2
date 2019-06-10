@@ -78,8 +78,25 @@ $('.work--card-3').on('click',function(){
 */
 
 $('.work--card-4').on('click',function(){
- showModal('','');
+ showModal('','<div class="work--list-modal">	<img src="image/signpost_pc.png">  <div class="work--list-right">    <p class="work--list-title">    	「Signpost」<br> 複業に関するメディア    </p>    <p class="work--list-detail">			URL：<a href="#" target="_blank">URLのっける</a><br>			開発人数：1名<br>    	使用ツール：Wordpress<br>    	開発内容：デザイン・コーディング・SEO対策・移行から運用、保守まで一人で担当<br>     	開発期間：約1ヶ月半<br>    </p>  </div></div>');
 });
+/* 
+<div class="work--list-modal">
+	<img src="image/signpost_pc.png">
+  <div class="work--list-right">
+    <p class="work--list-title">
+    	「Signpost」<br> 複業に関するメディア
+    </p>
+    <p class="work--list-detail">
+			URL：<a href="#" target="_blank">URLのっける</a><br>
+			開発人数：1名<br>
+    	使用ツール：Wordpress<br>
+    	開発内容：デザイン・コーディング・SEO対策・移行から運用、保守まで一人で担当<br> 
+    	開発期間：約1ヶ月半<br>
+    </p>
+  </div>
+</div>
+*/
 
 $('.work--card-5').on('click',function(){
  showModal('','');

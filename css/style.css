@@ -100,6 +100,41 @@ h1, h2 {
 }
 
 /*************************************
+*   スライド2枚目
+*   Profile
+**************************************/
+
+.skill-list li {
+  list-style: none;
+}
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.skill-list i {
+  font-size: 40px;
+}
+/* icon色 */
+.fa-html5 {
+  color: #E54B21;
+}
+.fa-css3-alt {
+  color: #0270BA;
+}
+.fa-java {
+  color: #0273BB;
+}
+.fa-salesforce {
+  color: #03A1E0;
+}
+.fa-js-square {
+  color: #FFDA3E;
+}
+
+/*************************************
 *   スライド3枚目
 *   JavaScript
 **************************************/
