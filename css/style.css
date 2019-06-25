@@ -81,13 +81,12 @@ h1, h2 {
 .work--list-title {
   font-size: 20px;
   font-weight: bold;
+  margin: 0;
 }
 .work--list-detail {
   align-self: center;
   margin: 0;
-}
-.work--list-right {
-  margin-top: 25px;
+  font-size: 14px;
 }
 
 .p-section__text img {
@@ -95,16 +94,16 @@ h1, h2 {
 }
 .work--list-left {
   position: relative;
-  width: 600px;
+  width: 580px;
   margin: auto;
 }
 .image--pc {
   position: absolute;
   top: 29px;
   left: 29px;
-  width: 541px;
+  width: 524px;
   overflow-y: scroll;
-  height: 314px;
+  height: 302px;
 }
 .image--display {
   width: 100%;
