@@ -94,16 +94,16 @@ h1, h2 {
 }
 .work--list-left {
   position: relative;
-  width: 580px;
-  margin: auto;
+  width: 480px;
+  margin: 0 auto 15px;
 }
 .image--pc {
   position: absolute;
-  top: 29px;
+  top: 25px;
   left: 29px;
-  width: 524px;
+  width: 424px;
   overflow-y: scroll;
-  height: 302px;
+  height: 245px;
 }
 .image--display {
   width: 100%;
